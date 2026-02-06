@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID_Casual</title>
+    <style>
+        .accessories-pricing {
+  padding: 60px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.bundle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.bundle-card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 14px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.bundle-card:hover {
+  transform: translateY(-8px);
+}
+
+.tag {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+  background: #222;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.bundle-card h3 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 30px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 14px;
+  color: firebrick;
+  margin-bottom: 20px;
+}
+
+.bundle-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bundle-card li {
+  margin: 10px 0;
+}
+
+.bundle-card button {
+  margin-top: 25px;
+  padding: 12px;
+  width: 100%;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.highlight {
+  border: 2px solid firebrick;
+  transform: scale(1.05);
+}
+
+    </style>
+</head>
+<body>
+    <section class="accessories-pricing">
+  <h2 class="section-title">Accessories Bundles</h2>
+
+  <div class="bundle-grid">
+    <div class="bundle-card">
+      <span class="tag">Starter</span>
+      <h3>Essential Pack</h3>
+      <p class="price">₦7,500</p>
+      <p class="desc">Perfect for everyday casual looks.</p>
+
+      <ul>
+        <li>1 Wristwatch</li>
+        <li>1 Belt</li>
+        <li>1 Bracelet</li>
+      </ul>
+
+      <button>Shop Bundle</button>
+    </div>
+
+    <div class="bundle-card highlight">
+      <span class="tag">Popular</span>
+      <h3>Style Pack</h3>
+      <p class="price">₦15,000</p>
+      <p class="desc">Upgrade your outfit with premium pieces.</p>
+
+      <ul>
+        <li>1 Wristwatch</li>
+        <li>1 Belt</li>
+        <li>2 Bracelets</li>
+        <li>1 Sunglasses</li>
+      </ul>
+
+      <button>Shop Bundle</button>
+    </div>
+
+    <div class="bundle-card">
+      <span class="tag">Premium</span>
+      <h3>Elite Pack</h3>
+      <p class="price">₦25,000</p>
+      <p class="desc">Complete accessories set for bold styling.</p>
+
+      <ul>
+        <li>2 Wristwatches</li>
+        <li>2 Belts</li>
+        <li>3 Bracelets</li>
+        <li>1 Sunglasses</li>
+        <li>1 Cap</li>
+      </ul>
+
+      <button>Shop Bundle</button>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

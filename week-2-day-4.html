@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ID Casual Accessories</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: whitesmoke;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: firebrick;
+  color: white;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+}
+
+.hero p {
+  margin-top: 1.0rem;
+}
+
+.products {
+  padding: 2rem 1.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.product-card h3 {
+  margin-bottom: 0.5rem;
+  color: firebrick
+}
+
+.about {
+  background: gainsboro;
+  margin: 2rem 1.5rem;
+  padding: 2rem;
+  border-radius: 14px;
+}
+
+.about h2 {
+  margin-bottom: 0.7rem;
+}
+
+.cta {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.cta button {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  background: firebrick;
+  color: black;
+  font-size: 1rem;
+  cursor: auto;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+
+/* ======================
+   MEDIA QUERY (DESKTOP)
+====================== */
+@media (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .products {
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .about {
+    max-width: 900px;
+    margin: 3rem auto;
+  }
+
+  .cta h2 {
+    font-size: 2.2rem;
+  }
+}
+
+</style>
+<body>
+
+  <header class="hero">
+    <h1>ID Casual Accessories</h1>
+    <p>Accessories that complete your style</p>
+  </header>
+
+  <section class="products">
+    <div class="product-card">
+      <h3>💍 Rings</h3>
+      <p>Elegant rings designed to elevate your look.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>⌚ Wristwatch</h3>
+      <p>Classic and modern wristwatches for every occasion.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>🕌 Jalabiyah</h3>
+      <p>Comfortable and stylish jalabiyah with cultural elegance.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>🧢 Tajia Caps</h3>
+      <p>Premium tajia caps that blend tradition and fashion.</p>
+    </div>
+
+    <div class="product-card">
+      <h3>🕶️ Sunglasses</h3>
+      <p>Stylish sunglasses for protection and confidence.</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About ID Casual</h2>
+    <p>
+      ID Casual Accessories is a brand focused on delivering quality
+      accessories that combine modern trends with cultural identity.
+      Every piece is selected to complement your lifestyle.
+    </p>
+  </section>
+
+  <section class="cta">
+    <h2>Upgrade Your Accessories Game</h2>
+    <button>Shop Now</button>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Ibrahim Adewole Faremi | Frontend week-2-day-4 Project</p>
+  </footer>
+
+</body>
+</html>
